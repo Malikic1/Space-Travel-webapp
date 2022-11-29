@@ -1,0 +1,22 @@
+.about,
+.image {
+  text-align: center;
+}
+.meetup {
+  margin: 2rem;
+}
+.meetup button {
+  padding: 10px 10px 10px 10px;
+  background-color: aliceblue;
+  border: none;
+  font-size: 0.8rem;
+  color: darkred;
+  border-radius: 0.5rem;
+}
+.image img {
+  width: 100%;
+}
+.btn:hover {
+  background-color: darkred;
+  color: white;
+}

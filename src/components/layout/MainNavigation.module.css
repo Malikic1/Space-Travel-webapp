@@ -1,0 +1,35 @@
+.header {
+  background-color: rgb(141, 10, 10);
+  position: fixed;
+  top: 0%;
+  width: 100%;
+  height: 3rem;
+}
+.header ul {
+  list-style-type: none;
+  float: right;
+  margin: -1rem 5% 0 0;
+  z-index: 4;
+  padding: 5px;
+}
+.logo {
+  position: relative;
+  top: 0.5rem;
+  left: 5%;
+  font-size: 1.5rem;
+  color: white;
+  width: 10rem;
+}
+li {
+  padding-left: 1rem;
+  float: left;
+}
+.link {
+  color: rgba(255, 255, 255, 0.863);
+  font-weight: 700;
+  font-size: 0.9rem;
+  text-decoration: none;
+}
+.link:hover {
+  color: moccasin !important;
+}

@@ -1,0 +1,35 @@
+form {
+  padding: 1rem;
+}
+form label {
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+input {
+  height: 1.2rem;
+}
+input,
+textarea {
+  width: 98%;
+  border: solid rgba(192, 192, 192, 0.651) 1px;
+  border-radius: 0.3rem;
+  margin-top: 2px;
+  margin-bottom: 4px;
+  padding-left: 8px;
+}
+form button {
+  font-size: 0.8rem;
+  padding: 8px 12px 8px 12px;
+  background-color: aliceblue;
+  border: none;
+  color: white;
+  background-color: darkred;
+  border-radius: 5px;
+  position: relative;
+  left: 77%;
+}
+.but:hover {
+  background-color: cadetblue;
+  color: darkred;
+  font-weight: 800;
+}
