@@ -1,21 +1,20 @@
-import Allmeetups from "./pages/AllmeetupsPage";
-import Newmeetups from "./pages/NewmeetupsPage";
-import Favourites from "./pages/FavouritePage";
-import MainNav from "./components/layout/MainNavigation";
-import MainLayout from "./components/layout/MainLayout";
 import { Routes, Route } from "react-router-dom";
+import Home from "./pages/HomePage";
+import Destination from "./pages/DestinationPage";
+import Crew from "./pages/CrewPage";
+import Technology from "./pages/TechnologyPage";
+import MainNavigation from "./layout/MainNavigation";
 
 function App() {
   return (
     <div>
-      <MainNav />
-      <MainLayout>
-        <Routes>
-          <Route path="/" element={<Allmeetups />} />
-          <Route path="/fav" element={<Favourites />} />
-          <Route path="/new" element={<Newmeetups />} />
-        </Routes>
-      </MainLayout>
+      <MainNavigation />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/destination" element={<Destination />} />
+        <Route path="/crew" element={<Crew />} />
+        <Route path="/technology" element={<Technology />} />
+      </Routes>
     </div>
   );
 }
